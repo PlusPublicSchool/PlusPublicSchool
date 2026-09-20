@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plus Public School</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Top section */
+        header {
+            padding: 30px 20px;
+        }
+
+        /* School logo */
+        .logo {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        /* Main heading */
+        h1 {
+            font-size: 42px;
+            letter-spacing: 3px;
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #cccccc;
+        }
+
+        /* Navigation */
+        nav {
+            margin-top: 30px;
+            padding: 15px;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Welcome section */
+        .welcome {
+            padding: 70px 20px;
+        }
+
+        .welcome h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .welcome p {
+            max-width: 700px;
+            margin: auto;
+            color: #cccccc;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            .logo {
+                width: 140px;
+                height: 140px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- School Logo -->
+        <img src="logo.png" alt="Plus Public School Logo" class="logo">
+
+        <!-- School Name -->
+        <h1>PLUS PUBLIC SCHOOL</h1>
+
+        <p class="tagline">Dedicated to Excellence</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Academics</a>
+            <a href="#">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="welcome">
+
+        <h2>Welcome to Plus Public School</h2>
+
+        <p>
+            Welcome to Plus Public School.
+            We are dedicated to providing quality education,
+            developing strong values, and helping students achieve
+            excellence in every field.
+        </p>
+
+    </section>
+
+    <footer>
+        © 2026 Plus Public School. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
